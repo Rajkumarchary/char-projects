@@ -1,0 +1,539 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;  
+}
+body{
+    /* width: 1520px;
+    height: 3926px; */
+}
+nav{
+    /* border: 2px solid green; */
+    height: 100px;
+    width: 1384px;
+    background-color:#250b7c;
+}
+nav img{
+    width: 150px;
+    height: 60px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+#img1:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    
+}
+nav div>ol{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    color: white;
+    position: relative;
+     bottom: 50px;
+
+}
+nav ol>li:hover{
+    cursor: pointer;  
+}
+ol{
+    /* border: 2px solid gold; */
+    padding-left:300px ;
+}
+#sec1{
+    /* border: 2px solid red; */
+    width: 1384.5px;
+    height: 403.35px;
+    background: url('https://static.magicpin.com/samara/static/images/home/homepage-illustration.svg') no-repeat;
+   background-position: bottom;
+   background-color: #250b7c;
+}
+#h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    color: white;
+    font-weight: 800;
+    word-spacing: 10px;
+    line-height: 44px;
+    font-size: xx-large;
+}
+#span2{
+    color: #EF1C74;
+}
+#dip{
+    /* border: 2px solid chartreuse; */
+    width: 1384px;
+    height: 46.85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#div2{
+    /* border: 2px solid #EF1C74; */
+    height: 46.85px;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#inp{
+    height: 46.85px;
+    width: 198.56px;
+    padding: 12px 16px 16px 48px;
+}
+#inp2{
+    height: 46.85px;
+    width: 490px;
+    padding: 12px 8px 12px 16px;
+}
+#sec2{
+    /* border: 2px solid green; */
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    margin-left:12% ;
+    margin-top: -60px;
+}
+#sec2 img{
+    /* border: 2px solid brown; */
+    width: 110px;
+    height: 110px;
+    border-radius: 50px;
+    background-color: white;
+   
+}
+#sec3{
+    /* border: 2px solid gold; */
+    width: 1107.6px;
+    height: 99.23px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 80px 80px 80px 80px 80px 80px 80px 80px 80px;
+    column-gap: 40px;
+    margin-left: 150px;
+}
+#sec3 img{
+    /* border: 2px solid red; */
+    width: 91.08px;
+    height: 64.22px;
+    border-radius: 10px;
+}
+h1{
+    /* border: 2px solid yellow; */
+    padding-left: 90px;
+    padding-top: -90px;
+}
+
+#sec4{
+    /* border: 2px solid pink; */
+     width: 1107.6.6px;
+    height: 515.98px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-rows: 60px 60px 60px;
+    grid-template-columns: 90px 90px 90px 90px 90px 90px 90px;
+    column-gap: 60px;
+    row-gap: 120px;
+    margin-top: -30px;
+
+
+}
+#sec4 img{
+    /* border: 2px solid blue; */
+    height: 128px;
+    width: 129px;
+}
+p{
+    /* border: 2px solid maroon; */
+    margin-top: -6px;
+    margin-left: 22px;
+    background-color: blue;
+    color: white;
+    border-radius: 25px;
+}
+#sec5{
+    /* border: 2px solid red; */
+    width: 1400.6px;
+    height: 515.98px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 80px 80px 80px 80px 80px 80px 80px;
+    column-gap: 90px;
+    row-gap: 10px;
+
+}
+#sec5 img{
+    /* border: 2px solid green; */
+    width: 128px;
+    height: 128px;
+}
+p{
+    /* border: 2px solid maroon; */
+    margin-top: -6px;
+    margin-left: 12px;
+    background-color: blue;
+    color: white;
+    border-radius: 25px;
+}
+#sec6{
+    /* border: 2px solid green; */
+      width: 1400.6px;
+    height: 400.97px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 60px 60px 60px 60px 60px 60px 60px;
+    row-gap: 10px 10px;
+    column-gap: 120px;
+    row-gap: 10px;
+
+}
+#sec6 img{
+    /* border: 2px solid blue; */
+    width: 128px;
+    height: 128px;
+}
+p{
+    /* border: 2px solid chocolate; */
+    width: 75px;
+    height:20px ;
+    margin-top: -6px;
+    margin-left: 12px;
+    background-color: blue;
+    color: white;
+    border-radius: 25px;
+}
+
+ #sec7{
+    /* border: 2px solid hotpink; */
+    width: 1384.5px;
+    height: 600px;
+    background-image: url('https://static.magicpin.com/samara/static/images/home/download-section.png');
+}
+#sec7md{
+    /* border: 2px solid red; */
+    display: grid;
+    justify-content: center;
+
+}
+#d5{
+    border: 1px solid #ECEEF4;
+    width: 692.25px;
+    height: 82.46px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 60px 60px 60px;
+    column-gap: 50px;
+    margin: 40px 346.126px;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+}
+#d5 img{
+    /* border: 2px solid black; */
+    width: 51px;
+    height: 51px;
+} 
+#sec7md h3{
+    font-weight:600px ;
+    font-size: xx-large;
+   
+
+}
+#aside1{
+    /* border: 2px solid red; */
+    width:1384.126px ;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    margin-top: -60px;
+}
+#divinp{
+    /* border: 2px solid brown; */
+    display: flex;
+    justify-content: center;
+}
+#inpd{
+    /* border: 2px solid green; */
+    width: 50px;
+    height: 40px;
+    background-color: #EFEFEF4D;
+    padding: 1px 8px;
+}
+#inpd2{
+    /* border: 2px solid blue; */
+    width: 250px;
+    height: 40px;
+    background-color:#FFFFFF ;
+    padding: 2px 8px ;
+}
+#butd{
+    
+    width: 90px;
+    height: 40px;
+    border: none;
+    background: #ef1c74;
+    color: #fff;
+    padding: 10px 12px;
+    cursor: pointer;
+    margin-left: 20px;
+    border-radius: 4px;
+}
+#divimg{
+    /* border: 2px solid green; */
+    width: 1384.5px;
+    height:39.02px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+
+}
+#divimg img{
+    /* border: 2px solid red; */
+    width: 120px;
+    height:35.99px ;
+    border-radius: 5px;
+    
+    
+}
+footer{
+    border: 2px solid red;
+    width: 1384.5px;
+    height: 800.1px;
+    background: url('https://static.magicpin.com/samara/static/images/footer-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 180px 64px 32px;
+}
+#fsec{
+    border: 2px solid white;
+    width:913.77px ;
+    height:223.62px ;
+    padding: 0px 0px 16px;
+    background-color: white;
+    display: flex;
+    margin-left: 200px;
+    margin-top: -300px;
+    border-radius: 10px;
+}
+#fd1{
+    /* border: 2px solid yellow; */
+    width: 456.88px;
+    height: 187.62px;
+    padding: 8px;
+    margin: 20px 0px 0px ;
+}
+#fd2{
+    /* border: 2px solid pink; */
+    width: 456.88px;
+    height: 187.62px;
+    padding: 8px;
+    margin: 20px 0px 0px ;
+}
+#art1{
+    /* border: 2px solid red; */
+    width: 440.17px;
+    height: 47px;
+    display: flex ;
+    justify-content: center;
+    gap: 10px;
+}
+#art2{
+    /* border: 2px solid greenyellow; */
+    width: 440.89px;
+    height: 47.02px;
+     display: flex ;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+#art1 img{
+    /* border: 2px solid  blue; */
+    width: 40px;
+    height: 40px;
+}
+#art2 img{
+     /* border: 2px solid  blue; */
+    width: 40px;
+    height: 40px;
+}
+#fd1 aside{
+    /* border: 2px solid green; */
+    width: 440px;
+    height: 31.99px;
+    color: #EF1C74;
+    padding-left: 150px;
+    padding-top: 5px;
+    
+}
+#fd2 aside{
+    /* border: 2px solid green; */
+    width: 440px;
+    height: 31.99px;
+    color: #EF1C74;
+    padding-left: 120px;
+    padding-top: 5px;
+    
+}
+#p1{
+    /* border: 2px solid red; */
+    width:440.17px ;
+    height: 49.59px;
+    font-size: small;
+    color: rgba(0, 0, 0, .54);
+    padding-left: 20px;
+}
+#p2{
+    /* border: 2px solid red; */
+    width:440.17px ;
+    height: 49.59px;
+    font-size: small;
+    color: rgba(0, 0, 0, .54);
+    padding-left: 20px;
+}
+#aimg{
+    /* border: 2px solid blue; */
+    width: 40px;
+    height: 40px;
+    margin-left: 200px;
+}
+#aimg2{
+    /* border: 2px solid blue; */
+    width: 40px;
+    height: 40px;
+     margin-left: 200px;
+}
+#aimg2:hover{
+    cursor: pointer;
+}
+#aimg:hover{
+    cursor: pointer;
+}
+#fdd{
+    /* border: 2px solid green; */
+    width: 1256.51px;
+    height: 588.11px;
+    margin-top: 70px;
+}
+#secff{
+    /* border: 2px solid yellow; */
+    width: 1052.61px;
+    height: 30px;
+    display: flex;
+    /* justify-content: center; */
+}
+#logo{
+    /* border: 2px solid gray; */
+    width:30px ;
+    height: 30px;
+}
+span{
+    color: #EF1C74;  
+}
+#secff1{
+     /* border: 2px solid darkred; */
+     width:209px ;
+     height:35px ;
+     padding-left: 750px;
+     display: flex;
+     /* justify-content: space-between; */
+     gap: 10px;
+     
+     
+}
+#secff1 img{
+    /* border: 2px solid green; */
+    width: 31.99px;
+    height: 31.99px;
+}
+#seccc{
+    /* border: 2px solid gold; */
+    width:1256.98px ;
+    height: 20px;
+    
+    
+}
+#old{
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 30px;
+}
+#old div+div:hover{
+    cursor: pointer;
+}
+#fppp{
+    color: white;
+}
+#fsl{
+    /* border: 2px solid red; */
+    width:1256.51px ;
+    height: 318.73px;    
+}
+#display{
+    display: flex;
+    gap: 40px;
+
+}
+
+#as1 div{
+    color: white;
+
+}
+#as2 div{
+    color: white;
+}
+#as3 div{
+    color: white;
+}
+#as4 div{
+    color: white;
+}
+#as5 div{
+    color: white;
+}
+#as6 div{
+    color: white;
+}
+#last2{
+    border: 1px solid #ECEEF4;
+   padding-top: 5px;
+    border-left: none;
+    border-right: none;
+    width: 1256.51px;
+    height: 35.3px;
+}
+#last2div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 19px;
+}    
+#last1{
+    /* border: 2px solid red; */
+    width: 1256px;
+    height: 37px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 8px;
+}
+#last1 img{
+    /* border: 2px solid blue; */
+    width: 120px;
+    height:34px ;
+}
